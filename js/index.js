@@ -243,7 +243,7 @@ $(function(){
 					<a class="brandImg" href="./list.html"><img src="${data.src}"/></a>
 					<div class="brandBodyIconHover">
 						<div class="hoverBanner">${data.name}</div>
-							<a class="check" href="./list.html">点击查看</a>
+							<a class="check" href="./list.html" target="_blank">点击查看</a>
 					</div>
 				</li>`
 //			console.log(str)
