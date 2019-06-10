@@ -18,7 +18,7 @@ $(function(){
 			var listBrand = `<li>
 							<div class="pCont">
 								<div class="pImg">
-									<a href="./detail.html"><img src="${data.src}" style="width: 180px;height: 180px;"/></a>
+									<a href="./detail.html" target="_blank"><img src="${data.src}" style="width: 180px;height: 180px;"/></a>
 									<div class="pBuy"><a style="color: #fff;" href="./detail.html">立即购买</a></div>
 								</div>
 								<div class="pTags">
