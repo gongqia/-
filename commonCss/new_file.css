@@ -1,0 +1,227 @@
+#navigaition{
+	z-index: 10;
+	background: #fff;
+	position: relative;
+}
+#navigaition .navInfoContent{
+	height: 36px;
+	/*background: #fff;*/
+}
+#navInfo .navInfoMenu{
+	width: 240px;
+	height: 36px;
+	line-height: 36px;
+	background-size: 100% 100%;
+	background-image: url(../img/index/classified.png);
+}
+.navInfoMenu a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+}
+.navInfoMenuA{
+	color: #fff;
+	margin-left: 15px;
+	font-size: 16px;
+}
+.navInfoMenuD{
+	width: 240px;
+	height: auto;
+	background: #fff;
+	position: relative;
+}
+.navInfoMenuD .heart{
+	width: 55px;
+	height: 55px;
+	position: absolute;
+	top: 30px;
+	left: -37px;
+	/*background-color: red;*/
+	background-position: 0 5px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../img/index/navigation_icon.png);
+}
+.leftMenu{
+	margin-top: -1px;
+	width: 240px;
+	min-height: 320px;
+	height: 550px;
+	background: #fff;
+	box-shadow: 0 0 10px rgb(0,0,0,.1);
+	position: relative;
+	z-index: 10;
+}
+.leftMenu li{
+	padding: 8px 0 8px 15px;
+	background-color: #fff;
+	line-height: 20px;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.leftMenu li:hover{
+	background-color: rgb(255,255,255);
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	z-index: 10;
+}
+.leftMenu li:hover .navInfoContentHover{
+	display: block;
+}
+.leftMenu li:hover .border{
+	display: block;
+}
+.leftMenu li .border{
+	position: absolute;
+	top: 0;
+	right: -5px;
+	background: orange;
+	z-index: 11;
+	width: 10px;
+	display: none;
+	height: 61px;
+}
+.leftMenu .list{
+	color: #000;
+	line-height: 22px;
+	font-size: 14px;
+	margin-right: 10px;
+	/*margin-bottom: 1px;*/
+	display: block;
+	font-weight: 700;
+	background-color: #fff;
+}
+.sList{
+	width: 225px;
+	height: auto;
+	/*position: relative;*/
+}
+.sList a{
+	display: inline-block;
+	margin-right: 6px;
+	font-size: 12px;
+	font-weight: 400;
+	color: #8a8a8a;
+	line-height: 22px;
+}
+.sList a:hover{
+	color: #e00;
+}
+.heart01{
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	background-image: url(../img/index/navigation_icon.png);
+	top: 315px;
+	left: 197px;
+	background-position: -29px -100px;
+	background-size: 200%;
+	z-index: 11;
+	background-repeat: no-repeat;
+}
+.navInfoContentHover{
+	width: 950px;
+	height: 550px;
+	background: #fff;
+	margin-left: 240px;
+	box-shadow: 0 0 5px rgba(0,0,0,.2);
+	padding: 32px 40px 40px 30px;
+    display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+    box-sizing: border-box;
+}
+.navInfoContentHover0{
+	top: -60px;
+	left: 0;
+}
+.navHoverInfo{
+	width: 600px;
+}
+
+.navHoverInfo .navHoverInfoTi{
+	display: block;
+    /*margin-bottom: 20px;*/
+    height: 39px;
+    padding-bottom: 17px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+.navHoverInfoTi span{
+	font-size: 18px;
+	line-height: 39px;
+	font-weight: 400;
+}
+.navHoverInfo1{
+	height: 350px;
+    width: 600px;
+    background: blue;
+    overflow: hidden;
+}
+.navHoverInfo1 ul{
+	width: 160px;
+    margin-right: 40px;
+    margin-top: 20px;
+    display: block;
+    background: yellow;
+    float: left;
+}
+.navHoverInfo1 .navHoverInfoT{
+	color: #000;
+	font-size: 14px;
+	line-height: 18px;
+	width: 140px;
+}
+.navHoverInfo1 ul a{
+	text-decoration: none;
+	margin-right: 12px;
+	color: #8b8b8b;
+	line-height: 22px;
+	float: left;
+}
+.navHoverInfo1 ul a:hover{
+	color: #e00;
+}
+.navHoverInfoImg{
+	width: 270px;
+	height: 470px;
+	background: red;
+	/*margin-right: 40px;*/
+}
+.navHoverBottom{
+	width: 576px;
+	height: 60px;
+	position: absolute;
+	bottom:35px;
+	left: 20px;
+	/*background-color: red;*/
+}
+.navHoverBottom img{
+	width: 135px;
+	height: 60px;
+	margin-left: 5px;
+	float: left;
+}
+#navigaition .navHoverInfoC{
+	min-width: 760px;
+    float: left;
+    height: 36px;
+    line-height: 42px;
+}
+.navHoverInfoC .InfoC{
+	padding-left: 40px;
+}
+.navHoverInfoC .InfoC00{
+	display: inline-block;
+	position: relative;
+	margin-right: 40px;
+}
+.navHoverInfoC a{
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+}
+.navHoverInfoC a:hover{
+	text-decoration: none;
+	color: #e00;
+}

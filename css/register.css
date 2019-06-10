@@ -1,0 +1,142 @@
+#register{
+	background: #fff;
+}
+#Footer .footerInfo{
+	display: none;
+}
+#Footer .footerMaPContent{
+	display: none;
+}
+.loginContent span{
+	display: block;
+}
+.loginContent .goLogin{
+	display: block;
+}
+.BodyBg{
+	height: 804px;
+	background-position: 50% 0;
+	background-image: url(../img/register/register_bgPicture.jpg);
+}
+.reBodyMiddle{
+	height: 804px;
+}
+.reBodyMiddleForm{
+	margin-left: 80px;
+	margin-top: 64px;
+	width: 730px;
+	height: 390px;  /**/
+	/*background: #f2f2f2;*/
+}
+.reBodyMiddleFormMain p{
+	font-size: 14px;
+	float: left;
+	width: 100px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 10px;
+	text-align: center;
+}
+.registerText{
+	width: 300px;
+	height: 32px;
+	/*background-color: green;*/
+}
+.registerText .clear{
+	display: none;
+	margin-left: 270px;
+	width: 18px;
+	height: 18px;
+	margin-top: 8px;
+	/*background: red;*/
+	background-image: url(../img/login/LoginIn-icon.png);
+	background-position: -20px -18px;
+	position: absolute;
+	cursor: pointer;
+}
+.registerText input{
+	width: 298px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-indent: 20px;
+	outline: none;
+}
+.registerText input:hover{
+	border-bottom: 1px solid #000;
+}
+.test{
+	width: 130px;
+	height: 32px;
+	margin-left: 10px;
+}
+.huanhang{
+	width: 620px;
+	height: 34px;
+	line-height: 24px;
+	margin-left: 110px;
+	opacity: 0;
+}
+.huanhang .errorIcon{
+	margin: 5px 0 0;
+    width: 14px;
+    height: 14px;
+    background-position: -38px -14px;
+    background-image: url(../img/login/LoginIn-icon.png);
+}
+.huanhang .tips{
+	width: 200px;
+	font-size: 12px;
+	text-align: left;
+	line-height: 24px;
+	color: #e00;
+	margin-left: 5px;
+}
+button{
+	margin-left: 10px;
+	height: 32px;
+	font-size: 14px;
+	color: #fff;
+	background: #ccc;
+	width: 120px;
+	float: left;
+	border-width: 0;
+}
+.confirmButton{
+	margin-left: 110px;
+	height: 30px;
+	line-height: 30px;
+	width: 300px;
+	background-color: #999;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+}
+.agree{
+	margin-left: 110px;
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+}
+.check{
+	margin-top: 8px;
+}
+.agree a{
+	color: #9d9d9d;
+	overflow: hidden;
+}
+.agree a:hover{
+	color: #e00;
+	text-decoration: underline;
+}
+.agree a:hover em{
+	background-image: url(../img/register/register_rightHover.png);
+}
+.agree em{
+	float: right;
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 8px 2px 0 2px;
+	/*background: red;*/
+	background-image: url(../img/register/register_right.png);
+}

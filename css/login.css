@@ -1,0 +1,227 @@
+#Footer .footerInfo{
+	display: none;
+}
+#Footer .footerMaPContent{
+	display: none;
+}
+.loginT{
+	height: 89px;
+	background: #fff;
+}
+.loginContent{
+	height: 89px;
+	background-color: #fff;
+}
+.loginContentLogo{
+	width: 250px;
+	height: 32px;
+	margin: 28px 0 0;
+}
+.loginContentLogo img{
+	width: 250px;
+	height: 33px;
+}
+.loginContent span{
+	float: left;
+	display: block;
+	font-size: 16px;
+	color: #333;
+	margin: 45px 0 0 30px;
+	display: none;
+}
+.loginContent .goLogin{
+	margin-top: 30px;
+	display: none;
+}
+.goLogin p{
+	float: left;
+	color: #9D9D9D;
+}
+.em{
+	float: right;
+	margin: 4px 0 0 4px;
+	width: 4px;
+	height: 8px;
+	background-image: url(../img/login/LoginIn-icon.png);
+	background-position: -52px 0;
+}
+.goLogin a{
+	color: #e00;
+}
+.goLogin a:hover{
+	text-decoration: underline;
+}
+.goLogin ul li:nth-child(2){
+	margin: 21px 0 0 6px;
+	width: 4px;
+	height: 8px;
+	background-image: url(../img/login/LoginIn-icon.png);
+	background-position: -52px 0;
+}
+/*body*/
+.BodyBg{
+	height: 610px;
+	min-width: 1190px;
+	margin-bottom:30px;
+}
+.BodyBg .BgPicture{
+	z-index: 1;
+	height: 610px;
+	position: absolute;
+	background-position: 50% 0;
+	background-image: url(../img/login/login_bgPicture.jpg);
+}
+.bodyMiddle{
+	height: 610px;
+}
+.bodyMain{
+	width: 360px;
+	height: 380px;
+	background-color: #fff;
+	margin: 115px 0 0 800px;
+	position: absolute;
+	z-index: 2;
+}
+.MainContent{
+	margin: 0 auto;
+	width: 300px;
+	height: 380px;
+	/*background: greenyellow;*/
+}
+.MainContent em{
+	float: left;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	margin: 26px 0 0;
+	color: #000;
+}
+.input1{
+	margin-top: 40px;
+	width: 300px;
+	height: 32px;
+}
+.leftIcon{
+	width: 20px;
+	height: 20px;
+	margin-left: 7px;
+	margin-top: 6px;
+	position: absolute;
+	background-image: url(../img/login/LoginIn-icon.png);
+}
+.input1 .userIcon{
+	background-position: 0 -20px;
+}
+.user{
+	width: 300px;
+	height: 32px;
+	background-color: #fff;
+}
+.user .clear{
+	opacity: 0;
+	margin-left: 270px;
+	width: 18px;
+	height: 18px;
+	margin-top: 8px;
+	/*background: red;*/
+	background-image: url(../img/login/LoginIn-icon.png);
+	background-position: -20px -18px;
+	position: absolute;
+	cursor: pointer;
+}
+.user input{
+	width: 298px;
+	text-indent: 32px;
+	height: 30px;
+	border: 1px solid #ccc;
+	outline: none;
+	z-index: -1;
+}
+.user input:hover{
+	border-bottom: 1px solid #000;
+}
+.input2{
+	width: 300px;
+	height: 32px;
+	margin-top: 20px;
+}
+.pswordIcon{
+	background-position: 0 0;
+}
+.forgetpass{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	color: #919191;
+	/*background: red;*/
+}
+.forgetpass a{
+	color: #919191;
+}
+.forgetpass a:hover{
+	color: #e00;
+}
+.okLogin{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #999;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	overflow: hidden;
+	transform: .5s;
+}
+.freeRegister{
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	color: #919191;
+	text-align: left;
+	/*background-color: red;*/
+}
+.mixedLogin{
+	width: 100px;
+	height: 50px;
+}
+.mixedLogin ul li{
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-top: 13px;
+	margin-right: 8px;
+	cursor: pointer;
+	background-image: url(../img/login/LoginIn-icon.png);
+}
+.mixedLogin ul li:nth-child(1){
+	background-position: -56px 0;
+}
+.mixedLogin ul li:nth-child(1):hover{
+	background-position: -80px 0;
+}
+.mixedLogin ul li:nth-child(2){
+	background-position: -56px -24px;
+}
+.mixedLogin ul li:nth-child(2):hover{
+	background-position: -80px -24px;
+}
+.mixedLogin ul li:nth-child(3){
+	background-position: -56px -48px;
+}
+.mixedLogin ul li:nth-child(3):hover{
+	background-position: -80px -48px;
+}
+.rightArraw{
+	margin: 21px 0 0 6px;
+	width: 4px;
+	height: 8px;
+	background-image: url(../img/login/LoginIn-icon.png);
+	background-position: -52px 0;
+}
+.freeRegister a{
+	color: #f12526;
+}
+.freeRegister a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,675 @@
+/*轮播*/
+#lunbo{
+	height: 400px;
+	background: rgb(168,15,18);
+}
+#box {
+	width: 1190px;
+	height: 400px;
+	/*background: orange;*/
+	margin: 0 auto;
+	/*border: 1px solid green;*/
+	position: relative;
+}
+#box:hover #boxKey{
+	display: inline-block;
+}
+#box span:hover{
+	background-color: rgba(0,0,0,.5);
+}
+#picbox {
+	width: 1190px;
+	height: 400px;
+	/*background: palegreen;*/
+	position: relative;
+	overflow: hidden;
+}
+.bigPic {
+	width: 1190px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: 0.5s;
+}
+#btnBox {
+	position: absolute;
+	left: 240px;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 5;
+}
+.Btn {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	border: 0;
+    background-color: hsla(0,0%,100%,0);
+    border-top: 3px solid hsla(0,0%,100%,.4);
+    border-radius: 0;
+    margin-right: 4px;
+}
+.Btn:nth-child(1){
+	border-top: 3px solid hsla(0,0%,100%,1);
+}
+#boxKey{
+	display: none;
+    color: #f2f2f2;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 5;
+    left: 0;
+    right: 0;
+}
+#boxKey span em{
+	background-image: url(../img/index/lunbo_arrow.png);
+}
+#before {
+	position: absolute;
+	width: 40px;
+	height: 100px;
+	left: 240px;
+	background-color: rgba(0,0,0,.1);
+	cursor: pointer;
+}
+#before em{
+	margin: 35px 15px 35px 10px;
+	width: 15px;
+	height: 30px;
+	display: block;
+	/*background: yellow;*/
+}
+#next{
+	position: absolute;
+	width: 40px;
+	height: 100px;
+	background-color: rgba(0,0,0,.1);
+	right: 0;
+	cursor: pointer;
+}
+#next em{
+	background-position:-15px 0;
+	margin: 35px 10px 35px 15px;
+	width: 15px;
+	height: 30px;
+	display: block;
+	/*background: yellow;*/
+}
+/*每周惠选*/
+#weekly{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.weeklyInfoContent{
+	width: 940px;
+	margin-left: 250px;
+	height: 140px;
+	display: block;
+	/*background: yellow;*/
+}
+.weeklyInfoContent img{
+	margin-left:4px;
+}
+
+#brand{
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+#brand .brandTitlle{
+	height: 36px;
+	margin: 10px 0;
+	margin-bottom: 3px;
+}
+.brandTitlleContent{
+	height: 36px;
+	position: relative;
+	/*background: yellow;*/
+}
+.brandTitlleContentL{
+	width: 387px;
+	height: 36px;
+	background-repeat: no-repeat;
+	background-position: -20px -13px;
+	background-size: 100%;
+	background-image: url(../img/index/sprite_title.png);
+}
+.brandTitlleContentR{
+	height: 36px;
+	position: absolute;
+	right: 0;
+	bottom: -7px;
+}
+.brandTitlleContentR li{
+	display: inline-block;
+	line-height: 36px;
+}
+.brandTitlleContentR .active a{
+	color: #000;
+	font-weight: bolder;
+}
+.brandTitlleContentR li a{
+	font-size: 14px;
+	color: #474747;
+}
+.brandTitlleContentR li em{
+	margin: 0 12px;
+	color: #dadada;
+}
+.brandTitlleContentR li a:hover{
+	color: #000;
+	font-weight: bolder;
+}
+#brandBody{
+	height: 317px;
+	/*margin-bottom: 80px;*/
+}
+#brandBodyContent{
+	height: 320px;
+}
+/*小轮播*/
+#brandBodyLunbo{
+	width: 590px;
+	height: 320px;
+	/*background: greenyellow;*/
+}
+#brandBodyLunboBox {
+	width: 590px;
+	height: 320px;
+	/*background: orange;*/
+	/*border: 1px solid green;*/
+	position: relative;
+}
+#spicbox {
+	width: 590px;
+	height: 320px;
+	background: palegreen;
+	position: relative;
+	overflow: hidden;
+}
+#brandBodyLunboBox:hover #brandBoxKey{
+	display: inline-block;
+}
+#brandBodyLunboBox span:hover{
+	background-color: rgba(0,0,0,.5);
+}
+.sbigPic {
+	width: 590px;
+	height: 320px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: 0.5s;
+}
+#sbtnBox {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 10;
+}
+.sBtn {
+	display: inline-block;
+	width: 50px;
+	height: 10px;
+	border: 0;
+    background-color: hsla(0,0%,100%,0);
+    border-top: 3px solid hsla(0,0%,100%,.4);
+    border-radius: 0;
+    margin-right: 4px;
+}
+
+.sBtn:nth-child(1){
+	border-top: 3px solid hsla(0,0%,100%,1);
+}
+#brandBoxKey{
+	display: none;
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 100;
+    left: 0;
+    right: 0;
+}
+#brandBoxKey span em{
+	background-image: url(../img/index/lunbo_arrow.png);
+}
+#sbefore {
+	position: absolute;
+	width: 26px;
+	height: 80px;
+	left: 0;
+	background-color: rgba(0,0,0,.1);
+	display: block;
+	cursor: pointer;
+}
+#sbefore em{
+	margin: 25px 5px;
+	width: 15px;
+	height: 30px;
+	display: block;
+	/*background: yellow;*/
+}
+#snext{
+	position: absolute;
+	width: 26px;
+	height: 80px;
+	background-color: rgba(0,0,0,.1);
+	right: 0;
+	display: block;
+	cursor: pointer;
+}
+#snext em{
+	background-position:-15px 0;
+	margin: 25px 5px 25px 7px;
+	width: 15px;
+	height: 30px;
+	display: block;
+	/*background: yellow;*/
+}
+
+.brandBodyContentR{
+	width: 600px;
+	height: 320px;
+	background: oldlace;
+	display: block;
+	position: relative;
+}
+.brandBodyContentR ul{
+	height: 320px;
+    /*transition-duration: 1.2s;*/
+    display: block;
+    position: absolute;
+}
+.brandBodyContentR ul li{
+	width: 149px;
+    height: 79px;
+    float: left;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+.brandBodyIcon:hover .brandBodyIconHover{
+	display: block;
+}
+.brandBodyContentR ul li a {
+	width: 144px;
+    height: 60px;
+    display: block;
+   	margin: 5px auto;
+}
+.brandBodyContentR ul li a img{
+	width: 100%;
+    height: 100%;
+}
+.brandBodyIconHover{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.8);
+	padding-top: 12px;
+	display: none;
+}
+.hoverBanner{
+	color: #fff;
+	text-align: center;
+	height: 28px;
+	line-height: 28px;
+}
+.brandBodyIconHover .check{
+	width: 84px;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #e00;
+	line-height: 18px;
+	border-radius: 12px;
+	/*display: block;
+	margin: 5px auto;*/
+}
+
+#brandTw0{
+	position: relative;
+	/*height: 36px;*/
+}
+#brandTw0 .brandTitlle01{
+	height: 36px;
+	/*background: orange;*/
+}
+.brandTitlleContent01{
+	/*background-position: -20px -47px;*/
+	height: 36px;
+}
+.brandTitlleContentL01{
+	background-position: -20px -47px;
+}
+.brand01Info{
+	min-height: 200px;
+}
+.brand01InfoConentList{
+	width: 590px;
+    height: 300px;
+    display: inline-block;
+    background-color: orange;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.brand01InfoConentList img{
+	height: 100%;
+	width: 100%;
+}
+.brand01InfoProduct{
+	position: absolute;
+    width: 210px;
+    top: 10px;
+    right: 10px;
+}
+.brand01InfoProduct li{
+	height: 130px;
+    margin-bottom: 1px;
+    position: relative;
+    background-color: #fff;
+    padding: 10px 0 0 10px;
+}
+.brand01name1,.brand01name2,.brand01Price{
+	width: 160px;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: left;
+	color: #000;
+	display: inline-block;
+}
+.brand01name1{
+	font-weight: bolder;
+}
+.brand01name2{
+	overflow: hidden;
+	white-space: nowrap;  /**/
+    text-overflow: ellipsis; /**/
+}
+.brand01Price{
+	position: absolute;
+	margin: 25px 0 0 -160px;
+	z-index: 1;
+}
+.brand01InfoProduct li img{
+	position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: 0;
+    right: 5px;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+}
+.brand01InfoProduct li img:hover{
+	right: 10px;
+}
+.brandList1{
+	margin-right: 0;
+}
+/*brandthree*/
+#brandthree{
+	margin-top: 80px;
+}
+.brandthree{
+	margin-bottom: 80px;
+}
+#brandthree .brandTitlle02{
+	height: 36px;
+	margin: 10px 0;
+	margin-bottom: 3px;
+}
+.brandTitlleContent02{
+	height: 36px;
+	position: relative;
+}
+.brandTitlleContentL02{
+	background-position: -20px -78px;
+}
+.brand02List{
+	height: 36px;
+	position: absolute;
+	right: 0;
+	bottom: -7px;
+	/*background: gold;*/
+}
+.brand02List li{
+	display: inline-block;
+	line-height: 36px;
+}
+.brand02List li a{
+	font-size: 14px;
+	color: #474747;
+	font-weight: 400;
+}
+.brand02List li a:hover{
+	color: #000;
+	font-weight: bolder;
+}
+.brand02List li em{
+	margin: 0 12px;
+	color: #DADADA;
+	font-weight: 400;
+}
+#brandthree .brand02Body{
+	height: 500px;
+	margin-bottom: 10px;
+}
+.brand02BodyContent{
+	height: 500px;
+	background: mediumpurple;
+}
+.brand02BodyContentL{
+	width: 390px;
+	height: 500px;
+	/*background: greenyellow;*/
+}
+.brand02BodyContentR,.brand03BodyContentR,
+.brand04BodyContentR,.brand04BodyContentR,
+.brand05BodyContentR,.brand06BodyContentR,
+.brand07BodyContentR{
+	width: 800px;
+    height: 500px;
+    border-left: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.brand02BodyProduct{
+	padding: 15px 10px;
+    padding-right: 0;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-right: 1px solid #f5f5f5;
+    border-top: 1px solid #f5f5f5;
+    box-sizing: border-box;
+}
+.brand02BodyProduct:nth-child(1){
+	 width: 199px;
+}
+.brand02BodyProduct:nth-child(5){
+	 width: 199px;
+}
+.brand02BodyProductImg{
+	position: absolute;
+    width: 180px;
+    height: 180px;
+    right: -5px;
+    bottom: 0;
+    transition-duration: .3s;
+    transition-timing-function: ease-out;
+    z-index: 1;
+}
+.brand02BodyProductImg:hover{
+	right: 5px;
+}
+.brand02Name1,.brand02Name2,.brand02Price{
+	display: block;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+    line-height: 18px;
+    z-index: 10;
+}
+.brand02Name1{
+	font-weight: bolder;
+}
+.brand02Price{
+	margin-top: 4px;
+}
+.brand02Footer{
+	height: 56px;
+}
+.brand02FooterContentBand{
+	height: 60px;
+	background-color: #fff;
+	display: inline-block;
+}
+.brand02FooterContentBand li{
+    display: inline-block;
+    width: 149px;
+    height: 56px;
+    overflow: hidden;
+}
+.brand02FooterContentBand li a{
+	width: 147px;
+	height: 60px;
+}
+.brand02FooterContentBand li img{
+	width: 144px;
+	height: 60px;
+	margin: 0 auto;
+}
+.brand02FooterContentBand li em{
+    height: 16px;
+    width: 2px;
+    background-color: #b1b1b1;
+    margin-top: 22px;
+    font-weight: 400;
+}
+.brand02FooterContentBand img:hover{
+	opacity: .7;
+}
+.brand02FooterContentBand li:nth-child(8){
+	width: 147px;
+}
+.brandTitlleContentL03{
+	background-position: -20px -113px;
+}
+.brandTitlleContentL04{
+	background-position: -20px -146px;
+}
+.brandTitlleContentL05{
+	background-position: -20px -247px;
+}
+.brandTitlleContentL06{
+	background-position: -20px -179px;
+}
+.brandTitlleContentL07{
+	background-position: -20px -212px;
+}
+.guesyoulike{
+	background-position: -20px -313px;
+}
+.guesyoulikeInfoContent{
+    background-color: #fff;
+    width: 1190px;
+    margin: 0 auto;
+    min-height: 300px;
+    border-top: 1px solid #f7f7f7;
+    border-left: 1px solid #f7f7f7;
+}
+.guesyoulikeInfoList{
+	display: inline-block;
+	width: 237px;
+    height: 259px;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+}
+.guesyoulikeInfoListBrand{
+	width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+    background: gray;
+}
+.guesyoulikeInfoListBrand img{
+	width: 180px;
+	height: 180px;
+}
+.guesyoulikename1,.guesyoulikename2,.guesyoulikePrice{
+	width: 196px;
+	margin: 0 20px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.guesyoulikename1{
+	font-weight: bolder;
+	font-size: 12px;
+}
+.guesyoulikename2{
+	font-weight: 400;
+}
+.guesyoulikePrice{
+	margin-top: 6px;
+}
+/*footer*/
+
+#FixedTop{
+	position: fixed;
+	z-index: 100;
+	transition: top .8s linear;
+	top: -70px;
+	/*display: none;*/
+}
+#FixedTop .fixedTopInfo{
+	background-color: #fff;
+    box-shadow: 0 3px 3px #f0f0f0;
+}
+.fixedTopInfoContent{
+    height: 40px;
+    padding: 10px 0;
+}
+.fixedLogo{
+	margin: 5px 80px 5px 0;
+	height: 30px;
+}
+
+
+#FixedLeft{
+	position: fixed;
+	top: 70px;
+	z-index: 1000;
+	width: 40px;
+	left: 104.5px;
+	display: none;
+}
+#fixedLeftInfo{
+	background-color: hsla(0,0%,100%,.95);
+}
+#fixedLeftInfo ul li em{
+	width: 26px;
+	line-height: 14px;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+#fixedLeftInfo a{
+	color: #9d9d9d;
+}

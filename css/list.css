@@ -1,0 +1,537 @@
+body{
+	background: #fff;
+}
+body a{
+	color: #000;
+}
+.navInfoMenuD{
+	display: none;
+}
+.navInfoMenu:hover .navInfoMenuD{
+	display: block;
+}
+.brandNav{
+	padding: 30px 0 20px;
+	overflow: hidden;
+	height: 22px;
+}
+.brandNav ul li{
+	height: 22px;
+	float: left;
+	margin-right: 10px;
+}
+.navRight{
+	color: #666;
+	height: 22px;
+	line-height: 22px;
+}
+.listContent{
+	background-color: #fafafa;
+}
+.listContentInfo{
+	height: 60px;
+}
+.listInfoLeft{
+	background: #fff;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+.listInfoRight{
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 18px 15px 0 0;
+	background: #111;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+}
+.listBrand{
+	height: 54px;
+	margin-top: 20px;
+	border-top: 1px solid #aaa;
+}
+.listBrand li{
+	float: left;
+}
+.liRelative{
+	float: left;
+	height: 54px;
+	font-size: 14px;
+	width: 138px;
+	height: 54px;
+	line-height: 54px;
+	position: relative;
+}
+.listBrand .b{
+	font-weight: 600;
+    padding-left: 15px;
+    width: 105px;
+    font-size: 14px;
+    line-height: 54px;
+}
+.liRelative:hover .dropDown{
+	display: block;
+}
+.dropDown{
+	width: 242px;
+	background: #fff;
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    padding-top: 20px;
+    border: 1px solid #aaa;
+    max-width: 242px;
+}
+.dropDown:before{
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 8px;
+	margin-top: -27px;
+	margin-left: 5px;
+	position: absolute;
+	/*background: red;*/
+	background-image: url(../img/list/list_arrow_icon.png)
+}
+.dropDownContentT{
+	margin-top: 0;
+	width: 48px;
+	text-align: right;
+	line-height: 14px;
+}
+.dropDownContentT a{
+	font-weight: 400;
+	text-align: right;
+}
+.dropDown ul{
+	max-width: 192px;
+	overflow: hidden;
+}
+.dropDown ul li{
+	line-height: 16px;
+	float: left;
+	width: 96px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.nextListBrand{
+	border-top: 1px solid #aaa;
+	margin-bottom: 20px;
+	/*height: 638px;*/
+}
+.nextListBrand .nextListItem{
+	border-bottom: 1px solid #eee;
+	padding-top: 15px;
+	overflow: hidden;
+}
+.lastChange{
+	padding-top: 15px;
+	overflow: hidden;
+	border-bottom: 1px solid #aaa;
+}
+.last{
+	padding-top: 0px;
+	overflow: hidden;
+	height: 1px;
+	border-bottom: 1px solid #aaa;
+}
+.lastBorder{
+	border-bottom: 1px solid #e00;
+}
+.itemTitlle{
+	font-weight: 600;
+    padding-left: 15px;
+    width: 105px;
+    font-size: 14px;
+}
+.itemIf{
+	width: 969px;
+}
+.itemIf li{
+	float: left;
+	width: 138px;
+	height: 16px;
+	line-height: 16px;
+	margin-bottom: 15px;
+}
+.itemIf li a{
+	display: inline-block;
+	font-size: 14px;
+	overflow: hidden;
+}
+.brandBtn{
+	display: block;
+	display: table-cell;
+}
+.sBtn{
+	cursor: pointer;
+	margin-right: 15px;
+	display: block;
+	color: #666;
+}
+.sBtn:hover{
+	color: #e00;
+}
+.sBtn a{
+	margin-right: 6px;
+}
+.bgIcon{
+	background-image: url(../img/list/list_category_icon.png);
+}
+.selectMore{
+	transition: background-position .15s linear;
+	margin-right: 5px;
+	/*content: "";*/
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	background-position: -37px -54px;
+}
+.selectMore:hover{
+	background-position: -37px -63px;
+}
+.brandBtnCont{
+	display: none;
+	height: 22px;
+	margin-top: 36px;
+	padding-bottom: 15px;
+	/*background: red;*/
+}
+.brandBtnCont .confCancel{
+	/*margin-top: 15px;*/
+	height: 22px;
+	text-align: center;
+}
+.confCancel a{
+	height: 22px;
+	display: inline-block;
+	width: 60px;
+	line-height: 22px;
+	margin: 0 10px;
+	font-size: 14px;
+	/*text-align: center;*/
+}
+.confCancel .confirm{
+	background-color: #000;
+	color: #fff;
+}
+.confCancel .cancel{
+	background-color: #eee;
+	color: #999;
+	cursor: pointer;
+}
+.foldMenu{
+	width: 95px;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    border-top: 1px solid #fff;
+    margin-top: -2px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+.foldMenu em{
+	margin-left: 5px;
+	display: inline-block;
+	width: 9px;
+	height: 6px;
+	background-image: url(../img/list/list_category_icon.png);
+	transition:background-position .15s linear;
+}
+.foldMenu .changeEm1{
+	background-position: 0 -33px;
+}
+.foldMenu:hover .changeEm1{
+	background-position: 0 -42px;
+}
+.foldMenu .changeEm2{
+	background-position: 0 -11px;
+}
+.foldMenu:hover .changeEm2{
+	background-position: 0 -20px;
+}
+.foldMenu:hover{
+	color: #e00;
+	border-bottom: 1px solid #e00;
+	border-left: 1px solid #e00;
+	border-right: 1px solid #e00;
+}
+
+#sortProduct{
+	height: 32px;
+}
+.sortProductLeft{
+	overflow: hidden;
+	height: 32px;
+	border: 1px solid #ddd;
+}
+.sortProductLeft span{
+	display: inline-block;
+    float: left;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    margin-left: -1px;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sIcon1{
+	color: #fff;
+	background-color: black;
+}
+.sortProductLeft em{
+	display: inline-block;
+	background-image: url(../img/list/list_arrow_black.png);
+	width: 8px;
+	height: 8px;
+	margin-left: 5px;
+}
+.sortProductLeft .e1{
+	background-image: url(../img/list/list_arrow_white.png);
+}
+.sortProductLeft .e2{
+	height: 10px;
+	background-image: url(../img/list/list_triangle.png)
+}
+.sortProductLeft i{
+	height: 11px;
+	width: 1px;
+	display: block;
+	background-color: #ddd;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.checkTick{
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+.checkTick a{
+	margin: 8px 10px 0 20px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #ddd;
+    float: left;
+    background: url(../img/list/list_tick.png);
+}
+.flipLR{
+	overflow: hidden;
+	color: #666;
+}
+.flipLR .colorH{
+	color: #e00;
+	font-weight: 600;
+}
+.flipLR span{
+	font-size: 14px;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #ddd;
+	width: 32px;
+	text-align: center;
+}
+.flipL{
+	margin: 0 5px;
+	background: url(../img/list/list_flipArrow.png);
+}
+.flipR{
+	background: url(../img/list/list_flipArrow.png);
+	background-position: 0 -32px;
+	cursor: pointer;
+}
+.flipR:hover{
+	border: 1px solid #000;
+}
+#listCont{
+	font-size: 14px;
+}
+.cateProd{
+	padding-top: 20px;
+	overflow: hidden;
+	padding-bottom: 90px;
+}
+.cateProd li{
+	float: left;
+	width: 237px;
+    height: 320px;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+}
+.cateProd li:nth-child(5){
+	 /*border-right: 0;*/
+}
+.pCont{
+	padding: 16px 15px 0;
+    width: 206px;
+    height: 302px;
+    border: 1px solid #fff;
+    border-right: 1px solid #f7f7f7;
+}
+.pCont:hover{
+	border: 1px solid #000;
+}
+.pCont:hover .pBuy{
+	display: block;
+}
+.pImg{
+	text-align: center;
+	height: 180px;
+	position: relative;
+}
+.pImg a{
+	display: block;
+	height: 180px;
+	width: 206px;
+}
+.pImg .pBuy{
+	display: none;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    width: 206px;
+    height: 32px;
+    line-height: 32px;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    cursor: pointer;
+}
+.pBuy:before{
+	content: "";
+	float: left;
+	margin: 7px 10px 0 60px;
+	width: 14px;
+	height: 18px;
+	/*background-color: red;*/
+	background-image: url(../img/list/list_bag.png);
+	background-position: 50%;
+}
+.pImg img{
+	width: 180px;
+	height: 180px;
+}
+.pTags{
+	padding: 6px 0;
+	height: 15px;
+	line-height: 15px;
+	font-size: 12px;
+}
+.pTags span{
+	float: left;
+	width: 40px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    margin-right: 5px;
+    color: #fff;
+    background: #e00;
+}
+.brandEn{
+	font-weight: 600;
+	padding-bottom: 6px;
+}
+.productCn{
+	padding-bottom: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.productCn a{
+	font-size: 12px;
+	font-weight: 400;
+}
+.productPrice{
+	padding-bottom: 5px;
+}
+.fixedsort{
+	height: 32px;
+	padding: 14px 0;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,.15);
+	position: fixed;
+	z-index: 1000;
+	background: #fff;
+	top: -70px;
+	transition: top .8s;
+}
+
+#pignationBg{
+	padding-bottom: 55px;
+	min-width: 1190px;
+}
+.pignationPlace{
+	width: 950px;
+	margin: 0 auto;
+	padding-left: 240px;
+}
+.pignationPlaceList{
+	line-height: 40px;
+	background: #fff;
+}
+.pignationPlaceList .listPrev{
+	display: inline-block;
+	width: 90px;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	color: #a8a8a8;
+}
+.listPrevPage{
+	margin: 0 20px;
+	display: inline-block;
+}
+.bg{
+	border-color: #000;
+	background: #000;
+	color: #fff;
+}
+.bg:hover{
+	color: #000;
+}
+.listPrevPage a{
+	width: 40px;
+	height: 40px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	margin: 0 3px;
+	text-align: center;
+}
+.pignationPlaceList .blackFont{
+	color: #000;
+}
+.listPrevGo{
+	display: inline-block;
+	margin-left: 40px;
+	color: #000;
+	font-size: 14px;
+}
+.listPrevGoInput1{
+	height: 40px;
+    width: 40px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    margin: 0 6px;
+    color: #000;
+    text-align: center;
+    outline: none;
+}
+.listPrevGoInput2{
+	font-size: 14px;
+	height: 40px;
+	width: 60px;
+	display: inline-block;
+	background: #000;
+	border-width: 0;
+	color: #fff;
+	margin-left: 20px;
+	cursor: pointer;
+}

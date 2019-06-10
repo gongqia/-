@@ -1,0 +1,133 @@
+#Footer{
+	/*margin-top: 80px;*/
+	min-width: 1190px;
+	/*background-color: #fff;*/
+}
+#Footer .footerInfo{
+	background-color: #fff;
+}
+.footerInfoContent{
+	padding: 30px 0;
+}
+.footerIcon{
+	width: 231px;
+    height: 96px;
+    display: inline-block;
+    margin-left: 0;
+}
+.footerIcon em{
+    width: 49px;
+    height: 49px;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/footer/footer_icon.png);
+    /*font-weight: 100;*/
+   padding: 0;
+}
+.footerIcon .footerIcon1{
+	 background-position: -137px 0;
+}
+.footerIcon .footerIcon2{
+	 background-position: -90px 0;
+}
+.footerIcon .footerIcon3{
+	 background-position: 0 0;
+}
+.footerIcon .footerIcon4{
+	 background-position: -180px 0;
+}
+.footerIcon .footerIcon5{
+	width: 45px;
+	background-position: -47px 0;
+}
+.footerIcon .footerFond{
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 14px;
+}
+.footerIcons{
+	height: 24px;
+    width: 1px;
+    background-color: #9d9d9d;
+    margin-bottom: 17px;
+    display: inline-block;
+    padding: 0;
+}
+.footerIconss{
+	background-color:#fff;
+}
+.footerMap{
+	background-color: #fff;
+}
+.footerMaPContent{
+    padding: 30px 0 50px;
+    width: 1190px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: right 40px;
+    border-top: 2px solid #000;
+    background-image: url(../img/footer/footer_line.png);
+}
+.footerMaPContent li{
+	width: 190px;
+    line-height: 24px;
+    display: inline-block;
+}
+.footerMaPContent a{
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	color: #696969;
+}
+.footerMaPContent a:hover{
+	color: #e00;
+}
+.footerMaPContent .boldT:hover{
+	color: #000;
+}
+.footerMaPContent .boldT{
+	font-weight: bolder;
+	color: #000;
+	margin-bottom: 10px;
+}
+.footerMapa{
+	width: 220px;
+	font-weight: 700;
+	vertical-align: top;
+}
+.foot{
+	background: black;
+}
+.footContent{
+	padding: 30px 0;
+	text-align: center;
+}
+.footList{
+	padding: 0 22px;
+	color: #6f6f6f;
+	display: inline-block;
+	height: 42px;
+}
+.footList li{
+	height: 21px;
+    line-height: 21px;
+    text-align: center;
+}
+.footIcon{
+	background-image: url(../img/footer/footer_spic.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+}
+.footList li a{
+	margin: 0 22px;
+	color: #6f6f6f;
+	font-size: 14px;
+}
+.footList p{
+	height: 21px;
+	line-height: 21px;
+}

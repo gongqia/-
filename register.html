@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>【丝芙兰】注册</title>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<script type="text/javascript" src="js/register.js" ></script>
+	</head>
+	<body>
+		<div id="register" class="t">
+			<div class="loginContent c">
+				<div class="loginContentLogo l">
+					<a href="index.html">
+						<img src="img/header/search_Logo1.png" />
+					</a>
+				</div>
+				<span>欢迎注册</span>
+				<div class="goLogin r">
+					<p>已有账号？<a href="login.html">立即登录</a><div class="em"></div></p>
+				</div>
+			</div>
+			<div class="BodyBg t l">
+				<div class="reBodyMiddle c">
+					<div class="reBodyMiddleForm l">
+						<div class="reBodyMiddleFormMain">
+							<p>图形验证码</p>
+							<div class="registerText l">
+								<div class="clear cl1"></div>
+								<input class="in1" type="text"/>
+							</div>
+							<img src="img/register/test.jpg"/ class="test l">
+							<div class="huanhang l">
+								<div class="errorIcon l"></div>
+								<p class="tips">请填写正确的验证码！</p>
+							</div>
+							<p>手机号</p>
+							<div class="registerText l">
+								<div class="clear cl2"></div>
+								<input class="in2" type="text" placeholder="请输入你的手机号"/>
+							</div>
+							<button>获取验证码</button>
+							<div class="huanhang l">
+								<div class="errorIcon l"></div>
+								<p class="tips">请填写正确的手机号码！</p>
+							</div>
+							<p>短信验证码</p>
+							<div class="registerText l">
+								<div class="clear cl3"></div>
+								<input class="in3" type="text"/>
+							</div>
+							<div class="huanhang l">
+								<div class="errorIcon l"></div>
+								<p class="tips">请填写正确的验证码！</p>
+							</div>
+							<p>输入密码</p>
+							<div class="registerText l">
+								<div class="clear cl4"></div>
+								<input class="in4" type="text" placeholder="6-16位大小写英文字母、数字或符号的组合"/>
+							</div>
+							<div class="huanhang l">
+								<div class="errorIcon l"></div>
+								<p class="tips">密码格式不正确！</p>
+							</div>
+							<p>确认密码</p>
+							<div class="registerText l">
+								<div class="clear cl5"></div>
+								<input class="in5" type="text" placeholder="请再次输入密码"/>
+							</div>
+							<div class="huanhang l">
+								<div class="errorIcon l"></div>
+								<p class="tips">密码格式不正确！</p>
+							</div>
+							<div class="confirmButton l">注册</div>
+							<div class="agree l">
+								<input class="check l" type="checkbox" /><a class="l" href="#">我已阅读《丝芙兰用户协议》</a>
+								<a class="r" href="login.html">立即登录<em></em></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="Footer"></footer>
+		<script>
+			$('footer').load("commonHtml/footer.html");
+		</script>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+#FixedRight{
+	position: fixed;
+	z-index: 100;
+	right: 104px;
+	bottom: 60px;
+	display: none;
+}
+.fixedRightInfo ul li{
+	height: 40px;
+	display: block;
+}
+.fixedRightInfo ul li:hover .fixedRightInfo1{
+	display: block;
+}
+.fixedRightInfo ul li:hover .FixedRightContent0{
+	background-color: rgba(0,0,0,.7);
+}
+.fixedRightInfo .FixedRightContent0{
+	height: 40px;
+	width: 40px;
+	display: block;
+	float: right;
+	background-color: #aaa;
+	background-image: url(../img/index/fixedR.png);
+}
+.fixedRightInfo1{
+    display: none;
+    width: 80px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    background-color: #474747;
+}
+.fixedRightInfo .FixedRightContent1{
+	background-position: 0 0;
+}
+.fixedRightInfo .FixedRightContent2{
+	background-position: 0 -40px;
+}
+.fixedRightInfo .FixedRightContent3{
+	background-position: 0 -160px;
+}
+.fixedRightInfo .FixedRightContent4{
+	background-position: 0 -240px;
+}
+.fixedRightInfo .FixedRightContent5{
+	background-position: 0 -280px;
+}
