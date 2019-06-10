@@ -290,32 +290,32 @@ var car = [{
 
 var listBrand = [{
 		"src": "img/list/list_img0.jpg",
-		"name": "丝芙兰牛油果海藻蚕丝面膜6盒惠选套装（“小海牛”）",
+		"name": "丝芙兰大眼随身眼影盘",
 		"price": "￥398.00"
 	},
 	{
 		"src": "img/list/list_img1.jpg",
-		"name": "丝芙兰莲花珍珠蚕丝面膜6盒惠选套装",
+		"name": "丝芙兰牛油果海藻蚕丝面膜6盒惠选套装（“小海牛”）",
 		"price": "￥398.00"
 	},
 	{
 		"src": "img/list/list_img2.jpg",
-		"name": "丝芙兰漫威英雄彩妆刷套装",
+		"name": "丝芙兰莲花珍珠蚕丝面膜6盒惠选套装",
 		"price": "￥399.00"
 	},
 	{
 		"src": "img/list/list_img3.jpg",
-		"name": "丝芙兰牛油果石榴蚕丝面膜6盒惠选",
+		"name": "丝芙兰漫威英雄彩妆刷套装",
 		"price": "￥398.00"
 	},
 	{
 		"src": "img/list/list_img4.jpg",
-		"name": "丝芙兰快乐小萌猪化妆刷套装（含不倒翁",
+		"name": "丝芙兰牛油果石榴蚕丝面膜6盒惠选",
 		"price": "￥239.00"
 	},
 	{
 		"src": "img/list/list_img5.jpg",
-		"name": "丝芙兰大眼随身眼影盘",
+		"name": "丝芙兰快乐小萌猪化妆刷套装（含不倒翁",
 		"price": "￥69.00"
 	},
 	{
