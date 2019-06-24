@@ -673,3 +673,6 @@
 #fixedLeftInfo a{
 	color: #9d9d9d;
 }
+#fixedLeftInfo ul li:hover em{
+	color: rgb(238, 0, 0)!important;
+}
